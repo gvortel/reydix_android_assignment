@@ -1,0 +1,58 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:radius="8dp"
+    android:elevation="4dp"
+    android:layout_marginEnd="8dp"
+    app:cardBackgroundColor="@color/colorBackgroundSecondary"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/colorBackgroundSecondary">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/item_popular_pokemon_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/view_circle_background_grey" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/item_popular_pokemon_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="14sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:padding="8dp"
+            android:gravity="center"
+            tools:text="Bulbasaur"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:text="CONNECT"
+            android:textSize="12sp"
+            android:layout_marginBottom="16dp"
+            style="@style/Theme.ReydixAndroidAssignment.Button" />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

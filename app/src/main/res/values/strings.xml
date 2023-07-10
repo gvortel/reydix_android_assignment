@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Reydix Android Assignment</string>
+
+<!--    Bottom Navigation Menu-->
+    <string name="bottom_nav_title_1">HOME</string>
+    <string name="bottom_nav_title_2">SEARCH</string>
+    <string name="bottom_nav_title_3">TICKETS</string>
+
+
+
+</resources>
